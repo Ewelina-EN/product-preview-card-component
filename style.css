@@ -17,7 +17,7 @@ body {
 
 main {
   width: 600px;
-  min-height: 450px;
+  /* min-height: 450px; */
   background-color: white;
   position: fixed;
   top: 50%;
@@ -36,10 +36,11 @@ main {
 .perfume_img {
   width: 300px;
   border-radius: 15px 0 0 15px;
+  height: 100%;
 }
 
 .information {
-  margin: 35px 30px;
+  padding: 10px 30px 0 30px;
 }
 
 .header {
@@ -54,7 +55,7 @@ main {
 .perfume_name {
   font-family: "Fraunces", serif;
   line-height: 30px;
-  margin: 25px 0 30px 0;
+  margin: 20px 0 25px 0;
 }
 
 .perfume_description {
@@ -62,11 +63,42 @@ main {
   font-weight: 500;
   font-size: 13px;
   color: hsl(228, 12%, 48%);
-  letter-spacing: 1px;
   line-height: 20px;
+  padding-right: 15px;
 }
 
 .price_section {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 30px 0 25px 0;
+}
+
+.price_after {
+  font-family: "Fraunces", serif;
+  color: hsl(158, 36%, 37%);
+  font-size: 30px;
+}
+
+.price_before {
+  font-family: "Montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+  margin-left: 25px;
+}
+
+.add_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
 }
