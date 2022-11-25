@@ -97,8 +97,18 @@ main {
   color: white;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
+  font-size: 14px;
   width: 100%;
   padding: 15px;
   border: none;
   border-radius: 10px;
+  cursor: pointer;
+}
+
+.add_btn:hover {
+  background-color: hsl(157, 39%, 19%);
+}
+
+.btn_img {
+  margin-right: 15px;
 }
